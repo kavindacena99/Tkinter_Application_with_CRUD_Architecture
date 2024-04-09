@@ -1,0 +1,3 @@
+create database ums;
+
+create table users(userid INT primary key auto_increment,firstname varchar(255),lastname varchar(255),username varchar(255),pswd varchar(255));
